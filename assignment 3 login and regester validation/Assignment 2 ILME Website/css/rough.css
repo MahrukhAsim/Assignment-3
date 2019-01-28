@@ -1,0 +1,62 @@
+#main {
+	max-width:200px;
+	max-height: 10px;
+	font-family: Tahoma;
+
+
+}
+.article {
+    background-color: black;
+	font-family:Tahoma;
+	float: left;
+
+}
+.box_input{
+	width: 400px;
+	height: 30px;
+	background-color:thistle;
+	border-radius: 10px;
+	align: center;
+	text: white;
+}
+.logo{
+	border: thick groove #32a1ce;
+	max-width: 98px;
+	max-height: 99px;
+	margin: auto;
+	border-color: red;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 60px;
+}
+.bgpage{
+	background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

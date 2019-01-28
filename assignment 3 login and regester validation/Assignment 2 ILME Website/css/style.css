@@ -1,0 +1,131 @@
+#main {
+	max-width: 530px;
+	margin: auto;
+	height: auto;
+	font-family: Tahoma;
+}
+.article {
+	padding: 10px 30px 10px 37px;
+    background-color: black;
+	font-family:Tahoma;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text: white;
+
+}
+
+.navbar{
+    background-color: #c30000;
+}
+.navbar-brand{
+    font-size:2.5rem;
+}
+
+.box_input{
+	width: 400px;
+	height: 30px;
+	background-color:thistle;
+	border-radius: 10px;
+	align: center;
+	text: white;
+}
+.bgpage{
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+.logo{
+	border: thick groove #32a1ce;
+	max-width: 70px;
+	max-height: 99px;
+	margin: auto;
+	border-color: red;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 60px;
+}
+
+
+.bgpage{
+	background-repeat: no-repeat;
+}
+
+.pic{
+
+    margin-left: 30px;
+}
+
+.mainnote{
+    margin-top: 10px;
+    font-size: xx-large;
+    color: darkred;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+.mainnote2{
+    margin-top: 10px;
+    font-size: large;
+    color:#613b3b;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+}
+
+
+.note{
+    display: inline;
+
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: larger;
+    color: darkred;
+    font-family: Tahoma;
+    text-decoration: underline;
+
+}
+.note2{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: large;
+    color:#613b3b;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: Tahoma;
+}
+
+.container-fluid{
+    background-color: black;
+}
+.cont{
+    background-color: white;
+}
+
+.page-footer{
+
+    background-color: antiquewhite
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

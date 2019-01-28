@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ILME:Register to ILME</title>
+    <link rel="icon" href="images/logoo.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">    <!--usaid's-->
+    <link rel="stylesheet" href="css/bootstrap.css">    <!--usaid's-->
+    <link rel="stylesheet" href="css/bootstrap123.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+</head>
+<body background="images/bg7.jpg">
+
+<div class="mynavbar">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+        <span class="navbar-brand mb-0 h1"><img class="logo" src="images/logoo.jpg"> ILME</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarButton">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarButton">
+            <ul class="navbar-nav mr-auto">
+
+                <a class="nav-item nav-link " href="index.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                <a class="nav-item nav-link " href="contact.html"><i class="fas fa-phone-square"></i> Contact</a>
+
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+
+    <div id="main">
+        <div class="article">
+
+            <h1 style="color: white" align="center" class="mt-3" class="dec">Register Yourself On ILME   <img class="logo" src="images/logoo.jpg" alt="my logo"> </h1>
+            <p style="color: white"><b>First Name:</b> </p>
+            <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter First Name"required pattern="^[a-zA-Z]+$" ><br><br>
+            <p style="color: white"><b>Last Name:</b> </p>
+            <input type="text" class="form-control" id="lname" name="lname" placeholder="Enter Last Name" required pattern="^[a-zA-Z]+$"><br><br>
+            <p style="color: white"><b>Gender:</b> </p>
+            <input type="text" class="form-control" id="gender" name="gender" placeholder="Enter Gender" required pattern="^male$|^MALE$|^female$|^FEMALE$"><br><br>
+            <p style="color: white"><b>Date of Birth:</b> </p>
+            <input type="date" class="form-control" id="dob" name="dob" placeholder="Enter Date of birth" ><br><br>
+            <p style="color: white"><b>Email:</b> </p>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" ><br><br>
+            <p style="color: white"><b>Password:</b> </p>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password" required pattern="^[A-za-z0-9]+\s+?[a-zA-Z0-9]+$"><br><br>
+            <p style="color: white"><b>Confirm Password:</b> </p>
+            <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm-Password" ><br><br>
+            <button type="submit" class="btn btn-primary btn-block"> Register Now </button><br>
+        </div>
+    </div>
+
+<footer class="page-footer font-small unique-color-dark">
+
+    <div class="footer-copyright text-center py-3"><i class="fas fa-copyright"></i> 2018 Copyright:
+        <a style="color: #c30000;"> ilme.home.com <br> <a style="color:black"> Developed by University of Central Punjab Student Team</a></a>
+
+    </div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
